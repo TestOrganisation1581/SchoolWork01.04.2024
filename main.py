@@ -4,7 +4,7 @@ k=0
 ma=0
 mas=0
 for i in range(len(A)):
-    if(ma<A[i] and A[i]%17==0):
+    if(ma<A[i] and A[i]%100==17):
         ma=A[i]
 for i in range(len(A)-2):
     if(((9999>=A[i]>=1000 and 9999>=A[i+1]>=1000) or (9999>=A[i]>=1000 and 9999>=A[i+2]>=1000) or (9999>=A[i+2]>=1000 and 9999>=A[i+1]>=1000))
